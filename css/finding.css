@@ -141,6 +141,9 @@
       display: block;
       font-size: 0.26rem;
       text-align: center; }
+      .footer .nav-footer span a {
+        color: #9A9A9A;
+        text-decoration: none; }
     .footer .nav-footer .weichat {
       margin-left: 0.6rem;
       width: 0.58rem;
