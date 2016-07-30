@@ -1,0 +1,192 @@
+*{
+  padding:0;
+  margin:0;
+  list-style: none;
+  font-family: Arial;
+}
+//$size:720px;
+@mixin userem($size){
+  $list:414px,412px,384px,375px,360px,320px;
+  @each $i in $list{
+    @media screen and (max-width:#{$i}){
+      html{
+        font-size:100px*($i/$size);
+      }
+    }
+  }
+}
+@include userem(720px);
+.header{
+  position:fixed;
+  z-index: 1000;
+  width:100%;
+  height:0.97rem;
+  line-height: 0.97rem;
+  padding-left:14px;
+  box-sizing: border-box;
+  background:rgb(57,58,63);
+  i{
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    font-style:normal;
+    font-size: 0.4rem;
+    color:#fff;
+  }
+  .search{
+    width:0.39rem;
+    height:0.38rem;
+    float:right;
+    margin-top:0.3rem;
+    background:url(../img/Screenshot_2016-07-27-13-56-01_03.png);
+    background-size: 100%;
+  }
+  .plus{
+    width:0.39rem;
+    height:0.38rem;
+    float:right;
+    margin-top:0.3rem;
+    margin-left:0.85rem;
+    margin-right:0.48rem;
+    background:url(../img/Screenshot_2016-07-27-13-56-01_05.png);
+    background-size: 100%;
+  }
+}
+.content{
+  box-sizing: border-box;
+  position:absolute;
+  overflow: hidden;
+  top:0.97rem;
+  bottom:1.09rem;
+  width:100%;
+  li {
+    display:block;
+    width: 90%;
+    height: 0.97rem;
+    line-height: 0.97rem;
+    //font-size: 0.4rem;
+    background: #fff;
+    margin-left: 0.28rem;
+    //padding-right: 0.28rem;
+    border-bottom: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    .head-picture{
+      margin-top:0.25rem;
+      width:0.48rem;
+      height:0.48rem;
+      float:left;
+    }
+    .message{
+      width:2rem;
+      height:0.97rem;
+      line-height: 0.97rem;
+      float:left;
+      font-size: 0.34rem;
+      font-weight: 800;
+      margin-left:0.36rem;
+      //background:blue;
+    }
+  }
+  li:nth-child(2) .head-picture{
+    background:url(../img/finding/Screenshot_2016-07-27-13-56-29_03.png)no-repeat center center;
+    background-size:100%;
+  }
+  li:nth-child(4) .head-picture{
+    background:url(../img/finding/Screenshot_2016-07-27-13-56-29_06.png)no-repeat center center;
+    background-size:100%;
+  }
+  li:nth-child(5) .head-picture{
+    background:url(../img/finding/Screenshot_2016-07-27-13-56-29_08.png)no-repeat center center;
+    background-size:100%;
+  }
+  li:nth-child(7) .head-picture{
+    background:url(../img/finding/Screenshot_2016-07-27-13-56-29_10.png)no-repeat center center;
+    background-size:100%;
+  }
+  li:nth-child(8) .head-picture{
+    background:url(../img/finding/Screenshot_2016-07-27-13-56-29_12.png)no-repeat center center;
+    background-size:100%;
+  }
+  li:nth-child(10) .head-picture{
+    background:url(../img/finding/Screenshot_2016-07-27-13-56-29_14.png)no-repeat center center;
+    background-size:100%;
+  }
+  li:nth-child(11) .head-picture{
+    background:url(../img/finding/Screenshot_2016-07-27-13-56-29_16.png)no-repeat center center;
+    background-size:100%;
+  }
+}
+.content:nth-child(1) li{
+
+}
+.bianju{
+  height:0.6rem;
+  width:100%;
+  background:#ebebeb;
+}
+
+.bianju-bottom{
+  height:1.2rem;
+  width:100%;
+  background:#ebebeb;
+}
+//.one{
+//  margin-top:0.3rem;
+//  margin-bottom:0.3rem;
+//}
+//.two,.three{
+//  margin-bottom:0.5rem;
+//}
+//.four{
+//  margin-bottom:5rem;
+//}
+.footer{
+  width:100%;
+  height:1.09rem;
+  background:#fff;
+  border-top:black;
+  position:fixed;
+  bottom:0;
+  left:0;
+  right: 0;
+  z-index: 1000;
+  .nav-footer{
+    width:25%;
+    height:100%;
+    float:left;
+    span{
+      display:block;
+      font-size:0.26rem;
+      text-align: center;
+    }
+    .weichat{
+      margin-left:0.6rem;
+      width:0.58rem;
+      height:0.55rem;
+      background:url(../img/finding/Screenshot_2016-07-27-13-56-01_36.png)no-repeat;
+      background-size:100%;
+    }
+    .list{
+      margin-left:0.6rem;
+      width:0.60rem;
+      height:0.55rem;
+      background:url(../img/finding/Screenshot_2016-07-27-13-56-14_16.png)no-repeat;
+      background-size:100%;
+    }
+    .finding{
+      margin-left:0.6rem;
+      width:0.68rem;
+      height:0.55rem;
+      background:url(../img/finding/Screenshot_2016-07-27-13-56-29_19.png)no-repeat;
+      background-size:100%;
+    }
+    .me{
+      margin-left:0.55rem;
+      width:0.69rem;
+      height:0.55rem;
+      background:url(../img/weichat/Screenshot_2016-07-27-13-56-01_43.png)no-repeat;
+      background-size:100%;
+    }
+  }
+}

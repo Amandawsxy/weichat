@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: Arial; }
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 57.5px; } }
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 57.22222px; } }
+
+@media screen and (max-width: 384px) {
+  html {
+    font-size: 53.33333px; } }
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 52.08333px; } }
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 50px; } }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 44.44444px; } }
+
+.header {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 0.97rem;
+  line-height: 0.97rem;
+  padding-left: 14px;
+  box-sizing: border-box;
+  background: #393a3f; }
+  .header i {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-style: normal;
+    font-size: 0.4rem;
+    color: #fff; }
+  .header .search {
+    width: 0.39rem;
+    height: 0.38rem;
+    float: right;
+    margin-top: 17.883px;
+    background: url(../img/Screenshot_2016-07-27-13-56-01_03.png);
+    background-size: 100%; }
+  .header .plus {
+    width: 0.39rem;
+    height: 0.38rem;
+    float: right;
+    margin-top: 17.883px;
+    margin-left: 0.85rem;
+    margin-right: 0.48rem;
+    background: url(../img/Screenshot_2016-07-27-13-56-01_05.png);
+    background-size: 100%; }
+
+.content {
+  box-sizing: border-box;
+  position: absolute;
+  overflow: hidden;
+  top: 0.97rem;
+  width: 100%;
+  background: #ebebeb; }
+  .content li {
+    display: block;
+    width: 100%;
+    height: 0.97rem;
+    line-height: 0.97rem;
+    background: #fff;
+    padding-left: 0.4rem;
+    padding-right: 0.28rem;
+    border-bottom: 1px solid #d9d9d9;
+    box-sizing: border-box; }
+    .content li .head-picture {
+      margin-top: 0.25rem;
+      width: 0.48rem;
+      height: 0.48rem;
+      float: left; }
+    .content li .message {
+      width: 2rem;
+      line-height: 0.97rem;
+      float: left;
+      font-size: 0.35rem;
+      font-weight: 700;
+      margin-left: 0.36rem; }
+  .content .touxiang {
+    width: 100%;
+    height: 2.2rem; }
+  .content .nav {
+    width: 100%;
+    height: 0.97rem; }
+  .content .content:nth-child(1) li {
+    width: 100%;
+    height: 1.61rem; }
+  .content li:nth-child(2) .head-picture {
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url(../img/me/Screenshot_2016-07-27-13-56-01_27.png) no-repeat center center;
+    background-size: 100%; }
+  .content li:nth-child(4) .head-picture {
+    background: url(../img/me/Screenshot_2016-07-27-13-56-44_07.png) no-repeat center center;
+    background-size: 100%; }
+  .content li:nth-child(5) .head-picture {
+    background: url(../img/me/Screenshot_2016-07-27-13-56-44_10.png) no-repeat center center;
+    background-size: 100%; }
+  .content li:nth-child(7) .head-picture {
+    background: url(../img/me/Screenshot_2016-07-27-13-56-44_12.png) no-repeat center center;
+    background-size: 100%; }
+  .content li:nth-child(8) .head-picture {
+    background: url(../img/me/Screenshot_2016-07-27-13-56-44_14.png) no-repeat center center;
+    background-size: 100%; }
+  .content li:nth-child(10) .head-picture {
+    background: url(../img/me/Screenshot_2016-07-27-13-56-44_16.png) no-repeat center center;
+    background-size: 100%; }
+  .content li:nth-child(12) .head-picture {
+    background: url(../img/me/Screenshot_2016-07-27-13-56-44_18.png) no-repeat center center;
+    background-size: 100%; }
+
+.bianju {
+  height: 0.5rem;
+  width: 100%;
+  background: #ebebeb; }
+
+.footer {
+  width: 100%;
+  height: 1.09rem;
+  background: #fff;
+  position: fixed;
+  border-top: 1px solid #ebebeb;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; }
+  .footer .nav-footer {
+    width: 25%;
+    height: 100%;
+    float: left; }
+    .footer .nav-footer .nav-picture {
+      margin-top: 0.11rem; }
+    .footer .nav-footer span {
+      display: block;
+      font-size: 0.26rem;
+      text-align: center; }
+    .footer .nav-footer .weichat {
+      margin-left: 0.6rem;
+      width: 0.58rem;
+      height: 0.55rem;
+      background: url(../img/finding/Screenshot_2016-07-27-13-56-01_36.png) no-repeat;
+      background-size: 100%; }
+    .footer .nav-footer .list {
+      margin-left: 0.6rem;
+      width: 0.60rem;
+      height: 0.55rem;
+      background: url(../img/finding/Screenshot_2016-07-27-13-56-14_16.png) no-repeat;
+      background-size: 100%; }
+    .footer .nav-footer .finding {
+      margin-left: 0.6rem;
+      width: 0.68rem;
+      height: 0.55rem;
+      background: url(../img/me/Screenshot_2016-07-27-13-56-01_43.png) no-repeat;
+      background-size: 100%; }
+    .footer .nav-footer .me {
+      margin-left: 0.55rem;
+      width: 0.69rem;
+      height: 0.55rem;
+      background: url(../img/me/Screenshot_2016-07-27-13-56-44_21.png) no-repeat;
+      background-size: 100%; }

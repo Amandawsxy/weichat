@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: Arial; }
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 57.5px; } }
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 57.22222px; } }
+
+@media screen and (max-width: 384px) {
+  html {
+    font-size: 53.33333px; } }
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 52.08333px; } }
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 50px; } }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 44.44444px; } }
+
+.header {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0.97rem;
+  line-height: 0.97rem;
+  padding-left: 14px;
+  box-sizing: border-box;
+  background: #393a3f; }
+  .header i {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-style: normal;
+    font-size: 0.4rem;
+    color: #fff; }
+  .header .search {
+    width: 0.39rem;
+    height: 0.38rem;
+    float: right;
+    margin-top: 0.3rem;
+    background: url(img/Screenshot_2016-07-27-13-56-01_03.png);
+    background-size: 100%; }
+  .header .plus {
+    width: 0.39rem;
+    height: 0.38rem;
+    float: right;
+    margin-top: 0.3rem;
+    margin-left: 0.85rem;
+    margin-right: 0.48rem;
+    background: url(img/Screenshot_2016-07-27-13-56-01_05.png);
+    background-size: 100%; }
+
+.content {
+  position: absolute;
+  top: 0.97rem;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  overflow-y: auto; }
+  .content li {
+    width: 90%;
+    height: 1.06rem;
+    line-height: 1.06rem;
+    color: #353535;
+    font-weight: 700;
+    margin-left: 0.28rem;
+    margin-right: 0.48rem;
+    border-bottom: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    position: relative; }
+    .content li span {
+      display: block;
+      margin-left: 1rem;
+      font-size: 0.35rem;
+      color: #353535; }
+    .content li .head-picture {
+      position: absolute;
+      top: 0.16rem;
+      width: 0.73rem;
+      height: 0.73rem;
+      float: left; }
+  .content .zimu {
+    width: 100%;
+    height: 0.55rem;
+    line-height: 0.55rem;
+    padding-left: 0.28rem;
+    font-size: 0.35rem;
+    color: #888888;
+    background: #e2e1e1; }
+  .content li:nth-child(1) .head-picture {
+    background: url(img/Screenshot_2016-07-27-13-56-01_13.png);
+    background-size: 100%; }
+  .content li:nth-child(2) .head-picture {
+    width: 0.73rem;
+    height: 0.73rem;
+    float: left;
+    background: url(img/Screenshot_2016-07-27-13-56-01_21.png);
+    background-size: 100%; }
+  .content li:nth-child(3) .head-picture {
+    width: 0.73rem;
+    height: 0.73rem;
+    float: left;
+    background: url(img/Screenshot_2016-07-27-13-56-01_23.png);
+    background-size: 100%; }
+  .content li:nth-child(4) .head-picture {
+    width: 0.73rem;
+    height: 0.73rem;
+    float: left;
+    background: url(img/Screenshot_2016-07-27-13-56-01_25.png);
+    background-size: 100%; }
+  .content li:nth-child(5) .head-picture {
+    width: 0.73rem;
+    height: 0.73rem;
+    float: left;
+    background: url(img/Screenshot_2016-07-27-13-56-01_27.png);
+    background-size: 100%; }
+  .content li:nth-child(6) .head-picture {
+    width: 0.73rem;
+    height: 0.73rem;
+    float: left;
+    background: url(img/Screenshot_2016-07-27-13-56-01_29.png);
+    background-size: 100%; }
+  .content li:nth-child(7) .head-picture {
+    width: 0.73rem;
+    height: 0.73rem;
+    float: left;
+    background: url(img/Screenshot_2016-07-27-13-56-01_31.png);
+    background-size: 100%; }
+  .content li:nth-child(8) .head-picture {
+    width: 0.73rem;
+    height: 0.73rem;
+    float: left;
+    background: url(img/Screenshot_2016-07-27-13-56-01_33.png);
+    background-size: 100%; }
+  .content li:nth-child(9) .head-picture {
+    width: 0.73rem;
+    height: 0.73rem;
+    float: left;
+    background: url(img/Screenshot_2016-07-27-13-56-01_31.png);
+    background-size: 100%; }
+  .content li:nth-child(10) .head-picture {
+    width: 0.73rem;
+    height: 0.73rem;
+    float: left;
+    background: url(img/Screenshot_2016-07-27-13-56-01_33.png);
+    background-size: 100%; }
+  .content li:nth-child(11) .head-picture {
+    width: 0.73rem;
+    height: 0.73rem;
+    float: left;
+    background: url(img/Screenshot_2016-07-27-13-56-01_31.png);
+    background-size: 100%; }
+  .content li:nth-child(12) .head-picture {
+    width: 0.73rem;
+    height: 0.73rem;
+    float: left;
+    background: url(img/Screenshot_2016-07-27-13-56-01_33.png);
+    background-size: 100%; }
+  .content li:nth-child(13) .head-picture {
+    width: 0.73rem;
+    height: 0.73rem;
+    float: left;
+    background: url(img/Screenshot_2016-07-27-13-56-01_31.png);
+    background-size: 100%; }
+  .content li:nth-child(14) .head-picture {
+    width: 0.73rem;
+    height: 0.73rem;
+    float: left;
+    background: url(img/Screenshot_2016-07-27-13-56-01_31.png);
+    background-size: 100%; }
+
+.footer {
+  width: 100%;
+  height: 1.09rem;
+  border-top: 1px solid #E2E1E1;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; }
+  .footer .nav-footer {
+    width: 25%;
+    height: 100%;
+    float: left; }
+    .footer .nav-footer span {
+      display: block;
+      font-size: 0.26rem;
+      text-align: center; }
+    .footer .nav-footer .nav-picture {
+      margin-top: 0.11rem; }
+    .footer .nav-footer .weichat {
+      margin-left: 0.6rem;
+      width: 0.58rem;
+      height: 0.55rem;
+      background: url(img/Screenshot_2016-07-27-13-56-01_36.png) no-repeat;
+      background-size: 100%; }
+    .footer .nav-footer .list {
+      margin-left: 0.6rem;
+      width: 0.60rem;
+      height: 0.55rem;
+      background: url(img/Screenshot_2016-07-27-13-56-01_38.png) no-repeat;
+      background-size: 100%; }
+    .footer .nav-footer .finding {
+      margin-left: 0.6rem;
+      width: 0.68rem;
+      height: 0.55rem;
+      background: url(img/Screenshot_2016-07-27-13-56-01_40.png) no-repeat;
+      background-size: 100%; }
+    .footer .nav-footer .me {
+      margin-left: 0.55rem;
+      width: 0.69rem;
+      height: 0.55rem;
+      background: url(img/Screenshot_2016-07-27-13-56-01_43.png) no-repeat;
+      background-size: 100%; }
